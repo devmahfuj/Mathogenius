@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background: rgb(15, 14, 14);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer {
+    font-size: 14px;
+}
+
+.rn
+{
+    font-size: 80px;
+}
+
+.sign
+{
+    font-size: 80px;
+    position: relative;
+    top: -90px;
+    left: -65px;
+}
+
+.result
+{
+    position: relative;
+    top: -70px;
+    font-size: 80px;
+}
+
+.result::before
+{
+    content: "";
+    height: 3px;
+    width: 300px;
+    background: #fff;
+    position: absolute;
+    top: -10px;
+    left: -90px;
+}
